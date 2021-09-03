@@ -1,0 +1,63 @@
+body {
+    background-color:gray;
+}
+
+p{
+    /* background-color:rgba(248, 248, 248, 0); */
+    
+    display:inline-block;
+    height:100px;
+}
+
+/* classes */
+.box{
+    color:red;
+    /* margin-top:32px;
+    margin-bottom:32px;
+    margin-left:20px;
+    margin-right:20px; */
+    margin: 50px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    /* border-width:3px;
+    border-color:red;
+    border-style: dotted; */
+    border:3px red dotted;
+}
+
+.box:hover{
+    color:white;
+}
+/* ID */
+#container{
+    color:lightblue;
+}
+
+img{
+    width:100vw;
+}
+
+#hero-image{
+    background-image:url("image/birthday-cake.jpg");
+    height:100vh;
+    width:90vw;
+    background-repeat:no-repeat;
+    background-position:center; 
+    background-size:cover;
+    background-attachment: fixed;
+    opacity:0.5;
+    display:inline-block;
+    border-radius:1px;
+}
+
+#hero-image:hover{
+    opacity:1;
+}
+
+#overlay{
+    position:relative;
+    bottom: 50px;
+}
+
+
+
+
