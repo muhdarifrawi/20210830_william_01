@@ -58,6 +58,28 @@ img{
     bottom: 50px;
 }
 
+.box-flex{
+    height:30px;
+    width:30px;
+    background-color: lightcoral;
+    margin: 10px;
+}
+
+.container{
+    display:flex;
+}
+
+.box-1{
+    flex-grow:1;
+}
+
+.box-2{
+    flex-grow:3;
+}
+
+.box-3{
+    flex-grow:1;
+}
 
 
 
