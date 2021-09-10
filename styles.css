@@ -22,6 +22,8 @@ p{
     border-color:red;
     border-style: dotted; */
     border:3px red dotted;
+    height:30px;
+    width:30px;
 }
 
 .box:hover{
@@ -81,5 +83,31 @@ img{
     flex-grow:1;
 }
 
+.circle{
+    background-color:red;
+    margin: 50px 20px 30px 40px;
+    /* padding: 10px 20px 30px 40px; */
+    border:3px red dotted;
+    border-radius: 15px;
+    height:30px;
+    width:30px;
+    animation-name:move-circle;
+    position:relative;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+}
 
+@keyframes move-circle{
+    0%{
+        left:0px;
+        /* top:0vh; */
+    }
+    50%{
+        top:50vh;
+    }
+    100%{
+        left:300px;
+        top:0vh;
+    }
+}
 
