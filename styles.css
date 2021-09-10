@@ -122,3 +122,20 @@ img{
     }
 }
 
+@media screen and (max-width:480px){
+    body{
+        background-color:salmon;
+    }
+}
+
+@media screen and (min-width:480px){
+    body{
+        background-color:green;
+    }
+}
+
+@media screen and (min-width:700px){
+    body{
+        background-color:purple;
+    }
+}
