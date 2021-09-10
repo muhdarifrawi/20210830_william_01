@@ -63,7 +63,7 @@ img{
 .box-flex{
     height:30px;
     width:30px;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     margin: 10px;
 }
 
@@ -73,15 +73,26 @@ img{
 
 .box-1{
     flex-grow:1;
+    background-color: lightcoral; 
 }
 
 .box-2{
     flex-grow:3;
+    background-color: lightcoral;
 }
 
 .box-3{
     flex-grow:1;
+    transition-property:background-color height;
+    transition-duration:3s;
+    background-color: lightskyblue;
 }
+
+.box-3:hover{
+    background-color:lightgreen;
+    height:80px;
+}
+
 
 .circle{
     background-color:red;
